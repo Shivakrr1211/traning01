@@ -1,8 +1,15 @@
 package org.example;
 
+import animal.Animal;
+import bird.Bird;
+
 public class Main {
-    public static void main (String[] args){
-        Bike bike =new Bike("strong",2,4,14,"LED","handle");
-        System.out.println(bike.run());
+    public static void main(String[] args){
+        Animal animal = new Animal();
+        System.out.println(animal);
+        Bird bird =new Bird();
+        System.out.println(bird);
+
+
     }
 }
