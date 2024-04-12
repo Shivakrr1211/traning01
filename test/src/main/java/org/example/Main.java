@@ -1,19 +1,15 @@
 package org.example;
 
 public class Main {
-    public static void main(String[]args){
-     //   Game game = new Game();
-       // game.feature();
-        Game game;
-        game = new Game();
-        game .feature();
-
-        game = new Valorant();
-        game.feature();
-
-       game =new Bgmi();
-       game.feature();
+    public static void main(String[] args) {
+        SamsungPhone phone = new SamsungPhone();
+        String p = phone.processor();
+        System.out.println(p);
+        System.out.println(phone.spaceInGb());
+        System.out.println(phone.whatsapp());
 
 
     }
+
 }
+
